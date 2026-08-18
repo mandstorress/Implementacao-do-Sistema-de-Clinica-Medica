@@ -24,6 +24,6 @@ export class Funcionario {
 
     descreverFuncao() {
         throw new Error("O método descreverFuncao() deve ser implementado pela classe filha.")
-}
+} 
 }
 
