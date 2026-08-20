@@ -1,21 +1,27 @@
- class Agenda {
-    #data
-    #descricao
-    #responsavel
+ export class Agenda {
+    #data;
+    #descricao;
+    #responsavel;
+
     constructor(data, descricao, responsavel){
         this.#data = data;
         this.#descricao = descricao;
         this.#responsavel = responsavel;
 
     }
-    get data(){
+    getData(){
         return this.#data;
     }
-    get descricao(){
+    getDescricao(){
         return this.#descricao;
     }
-    reagendar(Novadata){
-        this.#data=  Novadata;
+
+    getResponsavel(){
+        return this.#responsavel;
+    }
+
+    reagendar(novaData){
+        this.#data =  novaData;
     }
 
  }

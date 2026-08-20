@@ -1,0 +1,21 @@
+{
+  "name": "implementacao-do-sistema-de-clinica-medica",
+  "version": "1.0.0",
+  "description": "Este projeto consiste na implementação de um **Sistema de Clínica Médica**, desenvolvido em **JavaScript** utilizando os conceitos de **Programação Orientada a Objetos (POO)**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandstorress/Implementacao-do-Sistema-de-Clinica-Medica.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/mandstorress/Implementacao-do-Sistema-de-Clinica-Medica/issues"
+  },
+  "homepage": "https://github.com/mandstorress/Implementacao-do-Sistema-de-Clinica-Medica#readme"
+}

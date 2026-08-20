@@ -1,4 +1,4 @@
-class Especialidade {
+export class Especialidade {
   constructor(nome, codigo, descricao) {
     this.nome = nome;
     this.codigo = codigo;

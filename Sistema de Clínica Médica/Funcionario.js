@@ -14,11 +14,11 @@ export class Funcionario {
         this.#salario = salario;
     }
 
-    get salario(){
+    getSalario(){
         return this.#salario 
     }
 
-    set salario(novoSalario){
+    setSalario(novoSalario){
         this.#salario = novoSalario 
     }
 
@@ -26,4 +26,3 @@ export class Funcionario {
         throw new Error("O método descreverFuncao() deve ser implementado pela classe filha.")
 } 
 }
-
