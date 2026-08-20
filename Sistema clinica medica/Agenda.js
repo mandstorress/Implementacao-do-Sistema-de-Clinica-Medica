@@ -8,17 +8,17 @@
         this.#responsavel = responsavel;
 
     }
-    get data(){
+    getData(){
         return this.#data;
     }
-    get descricao(){
+    getDescricao(){
         return this.#descricao;
     }
-    get responsavel(){
+    getResponsavel(){
         return this.#responsavel;
     }
-    reagendar(Novadata){
-        this.#data=  Novadata;
+    reagendar(novaData){
+        this.#data =  novaData;
     }
 
  }

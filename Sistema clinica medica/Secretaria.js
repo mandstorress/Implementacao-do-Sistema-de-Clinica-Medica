@@ -7,14 +7,14 @@ export class Secretaria extends Funcionario{
         this.ramal = ramal;
         this.agendas = [];
 }
-    descreverfuncao(){return
-        `${this.nome} atua como secretário ramal ${this.ramal}.`
+    descreverFuncao(){
+        return `${this.nome} atua como secretário ramal ${this.ramal}.`
     }
 
-    criarAgendamento(Data,descricao,responsavel){
-        const novoagendamento = new Agenda(Data,descricao,responsavel);
-        this.agendas.push(novoagendamento);
-        return novoagendamento;
+    criarAgendamento(data, descricao, responsavel){
+        const novoAgendamento = new Agenda(data,descricao,responsavel);
+        this.agendas.push(novoAgendamento);
+        return novoAgendamento;
     }
 
 }

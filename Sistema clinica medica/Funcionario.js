@@ -14,11 +14,11 @@ export class Funcionario {
         this.#salario = salario;
     }
 
-    get salario(){
+    getSalario(){
         return this.#salario 
     }
 
-    set salario(novoSalario){
+    setSalario(novoSalario){
         this.#salario = novoSalario 
     }
 

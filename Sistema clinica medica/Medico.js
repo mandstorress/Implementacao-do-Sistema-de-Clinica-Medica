@@ -1,5 +1,6 @@
 import { Funcionario } from "./Funcionario.js";
-class Medico extends Funcionario {
+
+export class Medico extends Funcionario {
   constructor(nome, idFuncional, salario, crm) {
     super(nome, idFuncional, salario);
     this.crm = crm;
